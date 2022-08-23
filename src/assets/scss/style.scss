@@ -3,6 +3,10 @@
 @import "globals/globals";
 @import "globals/header";
 @import "globals/footer";
+@import "blocks/hero";
+@import "blocks/about";
+@import "blocks/focus";
+@import "blocks/cards";
 
 
 
@@ -27,17 +31,18 @@ body{
 
 .main {
     flex: 1 0 auto;
+ 
 
 }
-// footer {
-//     flex: 0 0 auto;
+footer {
+    flex: 0 0 auto;
     
-// }
+}
 .container {
     max-width: 1410px;
     margin: 0 auto;
     padding: 0 15px;
-   
+  
 }
 
    

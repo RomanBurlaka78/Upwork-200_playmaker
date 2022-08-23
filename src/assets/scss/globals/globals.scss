@@ -1,24 +1,45 @@
-/* Fonts */
-// @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+.title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    color: $clr-primary-black;
+}
+.text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 37px;
+    color: $clr-ligtht-grey;
+}
+.text-wrapper--center {
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+.text-wrapper--left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
 
-
-/* Global Styles */
-
- .btn {
+.btn {
     //forms button //
     font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 22px;
-    text-transform: uppercase;
-    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    // text-transform:capitalize;
+    // display: inline-block;
     text-decoration: none;
-    display: flex;
-    align-items: center;
+    text-align: center;
+    // display: flex;
+    // align-items: center;
     justify-content: center;
-    padding: 10px;
-    margin-right: 10px;
-    border-radius: 5px;
+    padding: 16px 40px;
+    // margin-right: 10px;
+    border-radius: 40px;
     // @media(max-width:992px) {
     //     font-size: 22px;
     //     padding: 10px 15px;
@@ -31,6 +52,8 @@
     // colors //
 &__outline {
     background-color: #fff;
+    color: $clr-secondary-blue;
+    border: 1px solid $clr-secondary-blue ;
     &:hover {
         background-color: darken( #fff,  13%);
         
@@ -39,7 +62,7 @@
 }
 &__primary {
     color: white;
-    background-color:blue;
+    background-color: $clr-secondary-blue;
     border: none;
     &:hover {
         background-color: darken( blue, 20%);

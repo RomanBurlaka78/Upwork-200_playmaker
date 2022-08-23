@@ -60,3 +60,23 @@ window.addEventListener("resize", ()=> {
 
 //menuBurger-call
 menuBurger();
+
+//Nav-scroll
+
+
+
+ 
+
+// function headerScroll() {
+//     const header = document.querySelector(".header");
+//     const scroll = window.scrollY;
+//     if (scroll> 50) {
+//         header.style.position = "fixed";
+//         header.style.backgroud = "red";
+       
+    
+//     }
+
+//      console.log(header.style.backgroud);   
+// }
+// headerScroll();

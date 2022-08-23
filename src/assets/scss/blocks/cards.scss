@@ -1,0 +1,55 @@
+.cards {
+
+    &__wrapper {
+        background-color:  rgba(41, 46, 55, 0.03);
+        margin:150px 0 82px 0;
+    }
+
+    &__content {
+        max-width: 1190px;
+        margin: 69px auto 0 auto;
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+        flex-wrap: wrap;
+    }
+    &__item {
+        flex: 0 0 343px;
+        background-color: $clr-secondary-gray;
+        width: 343px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h3 {
+            background-color:  #666666;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 48px;
+            padding: 9px 33px 8px 33px;
+            color: $clr-secondary-gray;
+        }
+    
+    }
+
+    &__item--black {
+        background-color: black;
+     
+    }
+    &__item--blue {
+        background-color:#3B0065;
+     
+    }
+
+    &__item--yellow {
+        background-color: #F5AB19;
+     
+    }
+
+    &__item--darkblue {
+        background-color: #101241;
+     
+    }
+    
+    
+}
