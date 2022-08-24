@@ -33,13 +33,19 @@
         display: flex;
         gap: 16px;
     }
+
+    &__img {
+        position: relative;
+    }
     &__img-image {
         flex: 0 0 777px;
-       
         max-width: 777px;
         // height: auto;
         // max-width: 777px;
         // max-height: 650px;
+
+
+
         @media(max-width:1400px) {
             max-width: 600px;
         }
@@ -59,12 +65,18 @@
         font-weight: 600;
         font-size: 72px;
         line-height: 48px;
+        position: absolute;
         display: flex;
         text-align: center;
         vertical-align: middle;
-        color: black;
+        color: $clr-secondary-gray;
         z-index: 1;
+      
+        top: 35%;
+        left: 37%;
     }
+
+
 
     &__button-wrapper {
         @media (max-width:1223px) {

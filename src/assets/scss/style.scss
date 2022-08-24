@@ -7,6 +7,7 @@
 @import "blocks/about";
 @import "blocks/focus";
 @import "blocks/cards";
+@import "blocks/focus-row";
 
 
 
@@ -31,6 +32,7 @@ body{
 
 .main {
     flex: 1 0 auto;
+    background: #F5F5F5;;
  
 
 }

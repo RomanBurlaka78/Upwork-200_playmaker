@@ -16,6 +16,16 @@
     flex-direction: column;
     gap: 15px;
     text-align: center;
+    
+}
+.text-wrapper--center40 {
+    font-weight: 800;
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
 }
 .text-wrapper--left {
     display: flex;

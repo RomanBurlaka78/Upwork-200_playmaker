@@ -1,0 +1,18 @@
+.focus-row {
+    &__inner {
+        margin: 196px 0 142px 0;
+        background:  #F5F5F5;;
+    }
+    &__content {
+        max-width: 1196px;
+        margin: 64px auto 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 24px;
+       
+    }
+    &__content-item {
+        flex: 0 0 100%;
+    }
+}
