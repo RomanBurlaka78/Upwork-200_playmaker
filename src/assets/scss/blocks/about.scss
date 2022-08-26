@@ -2,17 +2,24 @@
     &__wrapper {
         background-color: $clr-black-light;
         padding: 64px 122px;
+        @media(max-width:700px) {
+            padding: 64px 100px;
+        }
     }
     &__inner {
         display: flex;
-        justify-content: center;
-        gap: 196px;
+        justify-content: space-between;
+        gap: 36px;
         flex-wrap: wrap;
+     
     }
     &__content {
-        flex: 0 0 400px;
+        flex: 0 0 20%;
         text-align: center;
         color: white;
+        @media(max-width:778px) {
+            flex: 0 0 100%;
+        }
     }
     &__content-title {
         font-weight: 800;
@@ -23,8 +30,11 @@
     }
 
     &__text {
-        flex: 0 0 644px;
+        flex: 0 0 50%;
         color: white;
+        @media(max-width:778px) {
+            flex: 0 0 100%;
+        }
     }
     &__text-title {
         font-weight: 400;

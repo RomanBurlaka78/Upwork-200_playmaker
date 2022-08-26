@@ -7,7 +7,10 @@ footer {
 
 .footer {
     max-width: 1366px;
-    padding: 75px 0 206px 0;
+    padding: 75px 123px 206px 123px;
+    @media (max-width:700px) {
+        padding: 75px 23px 56px 23px;
+    }
 
     align-items: center;
     // padding: 45px 10px 35px 10px;
@@ -19,6 +22,9 @@ footer {
         gap: 48px;
         justify-content: space-between;
         flex-wrap: wrap;
+        @media(max-width:580px) {
+            justify-content: center;
+        }
         // gap: 85px;
 
         
@@ -30,6 +36,10 @@ footer {
         // }
     }
    
+    &__item {
+        flex: 0 0 14%;
+
+    }
 
 
     &__list-item {
@@ -60,13 +70,13 @@ footer {
         }
     }
 
-    &__list-item--last {
-        margin-top: 42px;
-    }
+    // &__list-item--last {
+    //     margin-top: 42px;
+    // }
 
     &__bottom {
         // width: 410px;
-        margin-left: 140px;
+        // margin-left: 140px;
         display: flex;
         justify-content: center;
     
